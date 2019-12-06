@@ -63,7 +63,7 @@ d
 ```
 d['four'] = '444'
 ```
-     or
+   or
 ```
 d2 = {}
 a = 'Hello'
@@ -113,7 +113,7 @@ for k in d.keys():
     three / 333
     four / 444
 ```
-     is the same as
+   is the same as
 ```
 for i, j in d.items()
      print(i, '/', j)
