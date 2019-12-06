@@ -15,6 +15,7 @@
 ## 8. Tuple
 ## 9. Dictionary
 ### 1. input  
+[Programming Exercise: English-Korean Dictionary](https://github.com/yoonseopark001/Python-Programming/blob/master/Programming%20Exercise_English-Korean_Dictionary.ipynb)
 ```
 d = {'one':'111', 'two':'222', 'three':'333'}
 ```
