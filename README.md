@@ -89,7 +89,7 @@ d2 = dict()
 ```
 8. convert: from list to dictionary
 ```
-d([['one',1],['two',2]])
+dict([['one',1],['two',2]])
 >> {'one': 1, 'two': 2}
 ```
 9. convert: tuple to dictionary
@@ -97,9 +97,55 @@ d([['one',1],['two',2]])
 dict((('one',1),('two',2)))
 >>> {'one': 1, 'two': 2}
 ```
-10. convert:  list[tuple(key, value), tuple(key, value), tuple(key, value)] / keys and values as characters
+10. convert: to return the list of key and value in tuple
 ```
-data.items()
-> dict_items([('one', '111'), ('two', '222'), ('three', '333'), ('four', '444'])
+d.items()
+> dict_items([('one', '11111'), ('two', '222'), ('three', '333'), ('four', '444'])
 
 ```
+11. loops
+
+```
+for k in d.keys():
+    print(k, "/", d[k])
+>>> one / 11111
+    two / 222
+    three / 333
+    four / 444
+```
+is the same as
+```
+for i, j in d.items()
+     print(i, '/', j)
+>>> one / 11111
+    two / 222
+    three / 333
+    four / 444
+```
+
+```
+for i in d.items():
+    print(i)
+>>> ('one', '11111')
+    ('two', '222')
+    ('three', '333')
+    ('three', '444')
+```
+```
+for i in d.items():
+    print(i[0])
+>>> one
+    two
+    three
+    four
+```
+
+```
+for i in d.items():
+    print(i[0])
+>>> 11111
+    222
+    333
+    444
+```
+
