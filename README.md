@@ -14,7 +14,7 @@
 ## 7. List
 ## 8. Tuple
 ## 9. Dictionary
-1. input  
+### 1. input  
 ```
 d = {'one':'111', 'two':'222', 'three':'333'}
 ```
@@ -31,14 +31,14 @@ dict(z)
 >>> {'one': 111, 'two': 222, 'three': 333}
 ```
 
-2. load keys
+### 2. load keys
 
 ```
 d.keys()
 >>> dict_keys(['one', 'two', 'three'])
 ```
 
-3. load values
+### 3. load values
 ```
 d.values()
 >>> dict_values(['111', '222', '333'])
@@ -53,17 +53,17 @@ d.get['one']
 >>> 111
 ```
 
-3. edit  
+### 4. edit  
 ```
 d['one'] = 11111
 d
 >> {'one': '11111', 'two': '222', 'three': '222'}  
 ```
-4. add
+### 5. add
 ```
 d['four'] = '444'
 ```
-or
+     or
 ```
 d2 = {}
 a = 'Hello'
@@ -71,7 +71,7 @@ d2[a] = len(a)
 d2
 >>> {'Hello' : 5}
 ```
-5. boolean  
+### 6. boolean  
 ```
 print('one' in data)
 >> true
@@ -79,31 +79,31 @@ print('one' in data)
 print('222' in data)
 >> false  
 ```
-6. length  
-```len(data)
+### 7. length  
+```
+len(d)
 >> 4  
 ```
-7. blank dictionary
+### 8. blank dictionary
 ```
 d2 = dict()
 ```
-8. convert: from list to dictionary
+### 9. convert: from list to dictionary
 ```
 dict([['one',1],['two',2]])
 >> {'one': 1, 'two': 2}
 ```
-9. convert: tuple to dictionary
+### 10. convert: tuple to dictionary
 ```
 dict((('one',1),('two',2)))
 >>> {'one': 1, 'two': 2}
 ```
-10. convert: to return the list of key and value in tuple
+### 11. convert: to return the list of key and value in tuple
 ```
 d.items()
 > dict_items([('one', '11111'), ('two', '222'), ('three', '333'), ('four', '444'])
-
 ```
-11. loops
+### 12. loops
 
 ```
 for k in d.keys():
@@ -113,7 +113,7 @@ for k in d.keys():
     three / 333
     four / 444
 ```
-is the same as
+     is the same as
 ```
 for i, j in d.items()
      print(i, '/', j)
