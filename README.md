@@ -3,6 +3,8 @@
 
 
 ## Exercise
+[Programming Exercise: English-Korean Dictionary](https://github.com/yoonseopark001/Python-Programming/blob/master/Programming%20Exercise_English-Korean_Dictionary.ipynb)
+
 
 ## 1. Print
 ## 2. Input
