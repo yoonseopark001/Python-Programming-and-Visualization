@@ -2,7 +2,7 @@
 
 
 ## SQL
-SQLite: CREATE, INSERT, SELECT, WHERE, UPDATE, DELETE
+- SQLite: CREATE, INSERT, SELECT, WHERE, UPDATE, DELETE
 
 ## Programming Exercise
-English-Korean Dictionary
+- English-Korean Dictionary
